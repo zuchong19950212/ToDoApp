@@ -122,6 +122,24 @@
             ]
         },
         {
+            "name": "string",
+            "type": "Microsoft.Insights/components",
+            "apiVersion": "2015-05-01",
+            "location": "string",
+            "tags": {},
+            "kind": "string",
+            "properties": {
+                "Application_Type": "string",
+                "Flow_Type": "Bluefield",
+                "Request_Source": "rest",
+                "HockeyAppId": "string",
+                "SamplingPercentage": "number",
+                "RetentionInDays": "integer",
+                "DisableIpMasking": "boolean",
+                "ImmediatePurgeDataOn30Days": "boolean"
+            }
+        },
+        {
             "apiVersion": "2014-11-01",
             "name": "[parameters('hostingPlanName')]",
             "type": "Microsoft.Web/serverFarms",
